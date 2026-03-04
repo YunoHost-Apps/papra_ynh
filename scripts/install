@@ -4,7 +4,6 @@
 # IMPORT GENERIC HELPERS
 #=================================================
 
-source _common.sh
 source /usr/share/yunohost/helpers
 
 #=================================================
@@ -56,15 +55,14 @@ ynh_config_add --template="papra.config.yaml" --destination="$install_dir/apps/p
 #=================================================
 
 pushd "$install_dir"
-ynh_exec_as_app pnpm install 
-ynh_exec_as_app pnpm -r build
-ynh_exec_as_app mkdir -p apps/papra-server/public
-ynh_exec_as_app cp -r apps/papra-client/dist/* apps/papra-server/public/
-pnpm store prune
+	ynh_exec_as_app pnpm install 
+	ynh_exec_as_app pnpm -r build
+	ynh_exec_as_app mkdir -p apps/papra-server/public
+	ynh_exec_as_app cp -r apps/papra-client/dist/* apps/papra-server/public/
+	pnpm store prune
 popd
+
 chown -R $app:$app $install_dir
-
-
 
 #=================================================
 # SYSTEM CONFIGURATION

@@ -3,26 +3,24 @@
 packaging_format = 2
 id = "papra"
 name = "Papra Docs"
-description.en = "The minimalistic document archiving platform."
-description.fr = "The minimalistic document archiving platform." 
+description.en = "Minimalistic document archiving platform"
+description.fr = "Plateforme d'archivage de documents"
 version = "26.2.0~ynh2"
 
 maintainers = ["otm33GH"]
 
 [upstream]
-license = "GPL-3.0-only" # you can see the available licenses identifiers list here: https://spdx.org/licenses/
+license = "GPL-3.0-only"
 website = "https://papra.app/fr/"
 demo = "https://demo.papra.app/"
 admindoc = "https://docs.papra.app/"
 code = "https://github.com/papra-hq/papra"
-
 
 [integration]
 yunohost = ">= 12.1.39"
 helpers_version = "2.1"
 architectures = "all"
 multi_instance = true
-
 
 ldap = false
 sso = false

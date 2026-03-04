@@ -3,7 +3,7 @@
 packaging_format = 2
 id = "papra"
 name = "Papra"
-description.en = "Minimalistic document archiving platform"
+description.en = "Document archiving platform"
 description.fr = "Plateforme d'archivage de documents"
 version = "26.2.0~ynh2"
 
@@ -46,8 +46,8 @@ ram.runtime = "500M"
 
     [install.email_verification]
     type = "boolean"
-    ask.en = "Allow email verification ?"
-    ask.fr = "Activer la confirmation de l'email ?"
+    ask.en = "Allow email verification?"
+    ask.fr = "Activer la confirmation de l'e-mail ?"
     default = true
 
     [install.doc_storage_driver]

@@ -1,5 +1,5 @@
 [Unit]
-Description=Papra
+Description=Papra: document archiving platform
 After=network.target
 
 [Service]

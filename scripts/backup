@@ -4,11 +4,9 @@
 # IMPORT GENERIC HELPERS
 #=================================================
 
-source ../settings/scripts/_common.sh
 source /usr/share/yunohost/helpers
 
 ynh_print_info "Declaring files to be backed up..."
-
 
 #=================================================
 # BACKUP THE APP MAIN DIR
@@ -25,6 +23,7 @@ ynh_backup "$data_dir"
 #=================================================
 # BACKUP SYSTEM CONFIGURATION
 #=================================================
+
 # Backup the NGINX configuration
 ynh_backup "/etc/nginx/conf.d/$domain.d/$app.conf"
 

@@ -12,10 +12,8 @@ source /usr/share/yunohost/helpers
 ynh_script_progression "Restoring the app main directory..."
 
 ynh_restore "$install_dir"
-npm install --global corepack@latest
-corepack enable pnpm
-corepack use pnpm@latest
-chown -R "$app:$app" "$install_dir"
+
+ynh_hide_warnings corepack enable && COREPACK_ENABLE_DOWNLOAD_PROMPT=0 corepack prepare pnpm@latest --activate
 
 #=================================================
 # RESTORE THE DATA DIRECTORY
@@ -23,7 +21,6 @@ chown -R "$app:$app" "$install_dir"
 ynh_script_progression "Restoring data directory..."
 
 ynh_restore "$data_dir"
-chown -R $app:$app "$data_dir"
 
 #=================================================
 # RESTORE SYSTEM CONFIGURATION

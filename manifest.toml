@@ -63,7 +63,7 @@ ram.runtime = "500M"
     [resources.sources.main]
     url = "https://github.com/papra-hq/papra/archive/refs/tags/@papra/app@26.2.1.tar.gz"
     sha256 = "587cbb0057187922f90c6854e62dc9c04fcdf10e8f92bb9dd20aca0692d0fd83"
-    # autoupdate.strategy = "latest_github_tag"
+    autoupdate.strategy = "latest_github_tag"
 
     [resources.system_user]
 	allow_email = true
@@ -73,7 +73,6 @@ ram.runtime = "500M"
     [resources.data_dir]
 
     [resources.permissions]
-
     main.url = "/"
     main.auth_header = false
 

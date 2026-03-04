@@ -141,8 +141,3 @@ name.fr = "Stockage Azure"
     ask.en = "Azure Blob Storage container name"
     ask.fr = "Azure Blob Storage container name"
     bind = "DOCUMENT_STORAGE_AZURE_BLOB_CONTAINER_NAME:__INSTALL_DIR__/.env"
-
-
-
-
-

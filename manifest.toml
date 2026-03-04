@@ -2,7 +2,7 @@
 
 packaging_format = 2
 id = "papra"
-name = "Papra Docs"
+name = "Papra"
 description.en = "Minimalistic document archiving platform"
 description.fr = "Plateforme d'archivage de documents"
 version = "26.2.0~ynh2"

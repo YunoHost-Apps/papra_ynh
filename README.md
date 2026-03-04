@@ -8,7 +8,7 @@ It shall NOT be edited by hand.
   Papra, packaged for YunoHost
 </h1>
 
-Minimalistic document archiving platform
+Document archiving platform
 
 [![🌐 Official app website](https://img.shields.io/badge/Official_app_website-darkgreen?style=for-the-badge)](https://papra.app/fr/)
 [![App Demo](https://img.shields.io/badge/App_Demo-blue?style=for-the-badge)](https://demo.papra.app/)

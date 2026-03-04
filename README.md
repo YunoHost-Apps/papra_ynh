@@ -4,8 +4,8 @@ It shall NOT be edited by hand.
 -->
 
 <h1>
-  <img src="https://raw.githubusercontent.com/YunoHost/apps/main/logos/papra.png" width="32px" alt="Logo of Papra Docs">
-  Papra Docs, packaged for YunoHost
+  <img src="https://raw.githubusercontent.com/YunoHost/apps/main/logos/papra.png" width="32px" alt="Logo of Papra">
+  Papra, packaged for YunoHost
 </h1>
 
 Minimalistic document archiving platform
@@ -21,13 +21,13 @@ Minimalistic document archiving platform
 
 
 ## Screenshots
-![Screenshot of Papra Docs](./doc/screenshots/papra-screenshot.png)
+![Screenshot of Papra](./doc/screenshots/papra-screenshot.png)
 
 ## 📦 Developer info
 
 [![Automatic tests level](https://apps.yunohost.org/badge/cilevel/papra)](https://ci-apps.yunohost.org/ci/apps/papra/)
 
-🛠️ Upstream Papra Docs repository: <https://github.com/papra-hq/papra>
+🛠️ Upstream Papra repository: <https://github.com/papra-hq/papra>
 
 Pull request are welcome and should target the [`testing` branch](https://github.com/YunoHost-Apps/papra_ynh/tree/testing).
 

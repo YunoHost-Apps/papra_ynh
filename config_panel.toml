@@ -77,6 +77,12 @@ type = "number"
 optional = true
 bind = "SMTP_PORT:__INSTALL_DIR__/.env"
 
+[main.smtp.smtp_secure]
+ask.en = "SMTP secure"
+ask.fr = "Sécurité SMTP"
+type = "boolean"
+optional = true
+bind = "SMTP_SECURE:__INSTALL_DIR__/.env"
 
 [main.storage]
 name.en = "Storage"

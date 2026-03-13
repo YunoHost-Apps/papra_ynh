@@ -11,6 +11,7 @@ ynh_abort_if_errors
 #=================================================
 # RETRIEVE ARGUMENTS
 #=================================================
+
 BACKEND_ENV="${install_dir}/.env"
 
 get__max_upload_size() {

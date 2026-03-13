@@ -73,7 +73,8 @@ bind = "SMTP_HOST:__INSTALL_DIR__/.env"
 [main.smtp.smtp_port]
 ask.en = "SMTP port"
 ask.fr = "Port du serveur SMTP"
-type = "number"
+type = "select"
+choices = ["25", "465", "587", "2525"]
 optional = true
 bind = "SMTP_PORT:__INSTALL_DIR__/.env"
 

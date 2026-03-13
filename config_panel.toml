@@ -73,10 +73,17 @@ bind = "SMTP_HOST:__INSTALL_DIR__/.env"
 [main.smtp.smtp_port]
 ask.en = "SMTP port"
 ask.fr = "Port du serveur SMTP"
-type = "number"
+type = "select"
+choices = ["25", "465", "587", "2525"]
 optional = true
 bind = "SMTP_PORT:__INSTALL_DIR__/.env"
 
+[main.smtp.smtp_secure]
+ask.en = "SMTP secure"
+ask.fr = "Sécurité SMTP"
+type = "boolean"
+optional = true
+bind = "SMTP_SECURE:__INSTALL_DIR__/.env"
 
 [main.storage]
 name.en = "Storage"
@@ -141,8 +148,3 @@ name.fr = "Stockage Azure"
     ask.en = "Azure Blob Storage container name"
     ask.fr = "Azure Blob Storage container name"
     bind = "DOCUMENT_STORAGE_AZURE_BLOB_CONTAINER_NAME:__INSTALL_DIR__/.env"
-
-
-
-
-

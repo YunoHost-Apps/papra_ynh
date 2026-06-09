@@ -5,7 +5,7 @@ id = "papra"
 name = "Papra"
 description.en = "Document archiving platform"
 description.fr = "Plateforme d'archivage de documents"
-version = "26.4.2~ynh1"
+version = "26.5.0~ynh1"
 
 maintainers = ["otm33GH"]
 

@@ -13,7 +13,7 @@ ynh_script_progression "Restoring the app main directory..."
 
 ynh_restore "$install_dir"
 
-# ynh_hide_warnings corepack enable && COREPACK_ENABLE_DOWNLOAD_PROMPT=0 corepack prepare pnpm@latest --activate
+ynh_hide_warnings npm install -g pnpm@latest
 
 #=================================================
 # RESTORE THE DATA DIRECTORY

@@ -5,7 +5,7 @@ id = "papra"
 name = "Papra"
 description.en = "Document archiving platform"
 description.fr = "Plateforme d'archivage de documents"
-version = "26.4.2~ynh1"
+version = "26.5.0~ynh1"
 
 maintainers = ["otm33GH"]
 
@@ -61,8 +61,8 @@ ram.runtime = "500M"
     [resources.sources]
 
     [resources.sources.main]
-    url = "https://github.com/papra-hq/papra/archive/refs/tags/@papra/app@26.4.2.tar.gz"
-    sha256 = "03626d301d938a5af3fbf3b9448e030f1543c25a87f3cebc1fd5e397b58753f4"
+    url = "https://github.com/papra-hq/papra/archive/refs/tags/@papra/app@26.5.0.tar.gz"
+    sha256 = "cd71d538ab2adb6c18afef19d59b004fb476c9f675b4a9f8c511cfb53625f2aa"
     autoupdate.strategy = "latest_github_tag"
 
     [resources.system_user]
@@ -79,5 +79,5 @@ ram.runtime = "500M"
     [resources.ports]
 
     [resources.nodejs]
-    version = "24"
+    version = "26"
     
